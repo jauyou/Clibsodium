@@ -2,7 +2,7 @@
 
 This framework is compiled from [libsodium](https://github.com/jedisct1/libsodium) TAG: 1.0.20-RELEASE.
 
-Due to time constraints, we were unable to implement a highly reliable version of the transaction signing logic. Therefore, for now, the project relies on the C-based libsodium as a dependency for JupSwift.
+Due to time constraints, we were unable to implement a highly reliable version of the transaction signing logic. Therefore, for now, the project relies on the C-based libsodium as a dependency for [JupSwift](https://github.com/jauyou/JupSwift).
 
 To mitigate the risk of using third-party precompiled libraries that might contain backdoors designed to steal private keys, we compiled our own version: Clibsodium.xcframework.
 
